@@ -447,44 +447,47 @@ footer li:hover {
         overflow: hidden;
         padding: 5px;
         width: 283px;
-        font-size: 23px;
+        font-size: 17px;
         top: 10px;
-        left: 141px;
+        left: 70px;
     }
 
     
     header img {
-        width: 200px;
+        width: 150px;
         padding-left: 20px;
     }
 
     main h1{
         grid-row: 1/1;
-        grid-column: 1/5;
-        padding-top: 25px;
-        font-size: 23px;
+        grid-column: 1/4;
+        padding-top: 45px;
+        font-size: 15px;
+        padding-left: 5px;
     }
     main p{
         grid-row: 2/2;
-        grid-column: 1/5;
-        font-size: 17px;
+        grid-column: 1/4;
+        font-size: 12px;
+        padding-left: 5px;
     }
 
     main .email {
         grid-row: 3/3;
-        grid-column: 1/5;
+        grid-column: 1/4;
+        margin-left: 5px;
     }
     main .submit {
         grid-row: 4/4;
-        grid-column: 1/5;
-        margin-left: 25px;
+        grid-column: 1/4;
+        margin-left: 0px;
         margin-right: 10px;
 
     }
 
     main img {
-        grid-row: 5;
-        grid-column: 2;
+        grid-row: 5/5;
+        grid-column: 1/2;
         width: 150px;
     }
 
@@ -492,30 +495,39 @@ footer li:hover {
         grid-row: 1/1;
         grid-column: 1/4;
         margin-top: 30px;
-        padding: 25px 0px 0px 20px;
+        padding: 25px 0px 0px 5px;
         font-size: 17px;
     }
 
     article .text {
-        grid-row: 2/4;
-        grid-column: 1/5;
+        grid-row: 2/3;
+        grid-column: 1/4;
+        padding-left: 5px;
         font-size: 13px;
     }
 
     article .link {
+        margin-top: 5px;
+        padding-left: 5px;
         font-size: 14px;
     }
 
     article .illustration {
-        grid-row: 3;
-        grid-column: 4;
-        width: 100px;
+        grid-row: 3/3;
+        grid-column: 1/1;
+        width: 140px;
+        margin-top: 20px;
+        margin-left: 130px;
     }
 
     blockquote {
         grid-row: 4/6;
-        grid-column: 1/4;
+        grid-column: 1/3;
         margin-left: 0px;
+        height: 250px;
+        width: 280px;
+        font-size: 14px;
+        padding: 17px 25px;
     }
 
     .name {
@@ -529,41 +541,42 @@ footer li:hover {
 
     aside h1{
         grid-row: 1/1;
-        grid-column: 2/10;
-        font-size: 30px;
-        padding: 46px 25px 0px 0px;
+        grid-column: 1/7;
+        font-size: 20px;
+        padding: 55px 25px 0px 10px;
     }
 
     aside p {
         grid-row: 2/2;
-        grid-column: 2/10;
-        font-size: 17px;
-        padding-left: 0px;
+        grid-column: 1/7;
+        font-size: 14px;
+        padding-left: 10px;
     }
 
     aside .a_email {
         grid-row: 5/5;
-        grid-column: 2/10;
+        grid-column: 1/7;
         height: 40px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     aside .a_submit {
         grid-row: 6/6;
-        grid-column: 2/7;
+        grid-column: 1/7;
         height: 40px;
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
     footer img {
         grid-row: 2 / 2;
-        grid-column: 2 / 6;
+        grid-column: 1 / 6;
+        padding-left: 5px;
      }
      
      footer .phone {
          grid-row: 3 / 3;
-         grid-column: 2 / 7;
+         grid-column: 1 / 7;
          padding-top: 8px;
          padding-left: 20px;
          font-size: 20px;
@@ -573,14 +586,14 @@ footer li:hover {
      
      footer .phone_img {
          grid-row: 3;
-         grid-column: 2;
-         padding-top: 13px;
-         width: 15px;
+         grid-column: 1;
+         padding-top: 16px;
+         width: 17px;
      }
      
      footer .f_email {
          grid-row: 4 / 4;
-         grid-column: 2 / 6;
+         grid-column: 1 / 6;
          padding-left: 35px;
          padding-top: 5px;
          padding-left: 20px;
@@ -590,20 +603,21 @@ footer li:hover {
      
      footer .email_img {
          grid-row: 4/ 4;
-         grid-column: 2 / 6;
+         grid-column: 1 / 6;
          padding-top: 13px;
-         width: 15px;
+         width: 19px;
      }
 
     footer .list_1 {
         grid-row: 5 / 9;
-        grid-column: 2 /5;
+        grid-column: 1 /3;
         margin-top: 10px;
+        padding-left: 5px;
     }
     
     footer .list_2 {
         grid-row: 5 / 9;
-        grid-column: 6 /9;
+        grid-column: 4 /5;
         margin-top: 10px;
     }
 
