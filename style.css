@@ -447,9 +447,9 @@ footer li:hover {
         overflow: hidden;
         padding: 5px;
         width: 283px;
-        font-size: 17px;
+        font-size: 20px;
         top: 10px;
-        left: 70px;
+        left: 120px;
     }
 
     
@@ -460,9 +460,9 @@ footer li:hover {
 
     main h1{
         grid-row: 1/1;
-        grid-column: 1/4;
+        grid-column: 1/5;
         padding-top: 45px;
-        font-size: 15px;
+        font-size: 23px;
         padding-left: 5px;
     }
     main p{
